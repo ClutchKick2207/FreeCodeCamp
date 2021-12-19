@@ -2,7 +2,7 @@
 
 ## Progress:
 
-This table will indicate which courses I am currently working on
+This table will indicate which courses I am currently working on, for easier reference as to what is finished, and what I am still working on. Will update as I go through more courses.
 
 | __FreeCodeCamp Course Name__              | __Status__          |
 | ----------------------------------------- | ------------------- |
