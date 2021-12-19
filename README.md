@@ -4,7 +4,7 @@ __FreeCodeCamp Course Name__ | __Status__
 ------------ | ---------------
 Responsive Web Design | *__In Progress__*
 JavaScript Algorithms and Data Structures | *__Starting Soon__*
-Front End Development  | *__Finished__*
+Front End Development Libraries | *__Starting Soon__*
 Check if output is too dark/bright | *__Finished__*
 Logic uses 'Modified Sunny 16 Rule' | *__Finished__*
 Output: Lighting Condition, Selected Settings, Recommended Settings | *__Finished__*
