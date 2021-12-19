@@ -21,4 +21,4 @@ This table will indicate which courses I am currently working on, for easier ref
 
 ## Where to find all my notes?
 
-Just go into source code, and everything will be sorted into notes for each lesson, and a document with the answer for each lesson. As I start doing some responses for a certification, I'll upload those on here as well.
+Just go into source code, and everything will be sorted into notes for each lesson, and a document with the answer for each lesson. As I start doing some responses for a certification, I'll upload those on here as well. Feel free to look through these notes in your own journey through these courses!
