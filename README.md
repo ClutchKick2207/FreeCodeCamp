@@ -18,3 +18,7 @@ This table will indicate which courses I am currently working on, for easier ref
 | Data Analysis with Python                 | *__Starting Soon__* |
 | Information Security                      | *__Starting Soon__* |
 | Machine Learning with Python              | *__Starting Soon__* |
+
+## Where to find all my notes?
+
+Just go into source code, and everything will be sorted into notes for each lesson, and a document with the answer for each lesson. As I start doing some responses for a certification, I'll upload those on here as well.
