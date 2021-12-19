@@ -1,5 +1,7 @@
 # FreeCodeCamp Course Notes
 
+I'll be using this repository to hosue all of the notes that I take during my time taking the official FreeCodeCamp courses, and aim to 
+
 ## Progress:
 
 This table will indicate which courses I am currently working on, for easier reference as to what is finished, and what I am still working on. Will update as I go through more courses.
