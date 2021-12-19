@@ -1,6 +1,6 @@
 # FreeCodeCamp Course Notes
 
-I'll be using this repository to hosue all of the notes that I take during my time taking the official FreeCodeCamp courses, and aim to 
+I'll be using this repository to hosue all of the notes that I take during my time taking the official FreeCodeCamp courses, and aim to get the classic 'Full Stack Developer' certification as a form of gaining experience in multiple languages, and seeing what suits me best.
 
 ## Progress:
 
