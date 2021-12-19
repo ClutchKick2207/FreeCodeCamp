@@ -9,6 +9,6 @@ Data Visualisation| *__Starting Soon__*
 Back End Development Libraries and APIs | *__Starting Soon__*
 Quality Assurance | *__Starting Soon__*
 Scientific Computing with Python | *__Starting Soon__*
-Semi-Automatic: Ask for one preferred setting, output other 2 | *__Not-Doing__*
-Error-Checking | *__Finished__*
-Summarise lighting condition, mode and settings | *__Not-Doing__*
+Data Analysis with Python | *__Starting Soon__*
+Information Security | *__Starting Soon__*
+Machine Learning with Python | *__Starting Soon__*
