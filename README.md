@@ -17,7 +17,7 @@ This table will indicate which courses I am currently working on, for easier ref
 | Scientific Computing with Python          | *__Starting Soon__* |
 | Data Analysis with Python                 | *__Starting Soon__* |
 | Information Security                      | *__Starting Soon__* |
-| Machine Learning with Python              | *__Starting Soon__* |
+| Machine Learning with Python              | *__In Progress__* |
 
 ## Where to find all my notes?
 
