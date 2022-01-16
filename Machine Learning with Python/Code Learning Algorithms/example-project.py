@@ -101,3 +101,14 @@ pred_dicts = list(linear_est.predict(eval_input_fn))
 probs = pd.Series([pred['probabilities'][1] for pred in pred_dicts])
 
 probs.plot(kind='hist', bins=20, title='predicted probabilities')
+
+from sklearn.metrics import roc_curve
+from matplotlib import pyplot as plt
+
+fpr, tpr, _ = roc_curve(y_eval, probs)
+plt.plot(fpr, tpr)
+plt.title('ROC curve')
+plt.xlabel('false positive rate')
+plt.ylabel('true positive rate')
+plt.xlim(0,)
+plt.ylim(0,)
