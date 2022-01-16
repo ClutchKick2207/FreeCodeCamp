@@ -70,3 +70,7 @@ for feature_batch, label_batch in ds.take(1):
   print('A batch of class:', feature_batch['class'].numpy())
   print()
   print('A batch of Labels:', label_batch.numpy())
+
+# Inspecting a specific feature column:
+age_column = feature_columns[7]
+tf.keras.layers.DenseFeatures([age_column])(feature_batch).numpy()
