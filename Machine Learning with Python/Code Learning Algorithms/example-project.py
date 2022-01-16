@@ -77,3 +77,12 @@ tf.keras.layers.DenseFeatures([age_column])(feature_batch).numpy()
 
 gender_column = feature_columns[0]
 tf.keras.layers.DenseFeatures([tf.feature_column.indicator_column(gender_column)])(feature_batch).numpy()
+
+#---Training the Model---
+
+linear_est = tf.estimator.LinearClassifier(feature_columns=feature_columns)
+linear_est.train(train_input_fn)
+result = linear_est.evaluate(eval_input_fn)
+
+clear_output()
+print(result)
