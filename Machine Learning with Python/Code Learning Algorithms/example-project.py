@@ -89,3 +89,10 @@ clear_output()
 print(result)
 
 age_x_gender = tf.feature_column.crossed_column(['age', 'sex'], hash_bucket_size=100)
+derived_feature_columns = [age_x_gender]
+linear_est = tf.estimator.LinearClassifier(feature_columns=feature_columns+derived_feature_columns)
+linear_est.train(train_input_fn)
+result = linear_est.evaluate(eval_input_fn)
+
+clear_output()
+print(result)
