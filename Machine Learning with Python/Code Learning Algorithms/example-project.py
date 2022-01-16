@@ -4,6 +4,7 @@
 # So that you can look at the code all in one place
 # I would highly recommend using the Jupyter Notebook, as it allows for better useage, and I've got example outputs embedded in it
 
+#All of this was pulled from: https://www.tensorflow.org/tutorials/estimator/linear
 
 #I'll put in a few notes in here as well.
 
