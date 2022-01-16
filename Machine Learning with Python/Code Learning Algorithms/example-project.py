@@ -88,3 +88,4 @@ result = linear_est.evaluate(eval_input_fn)
 clear_output()
 print(result)
 
+age_x_gender = tf.feature_column.crossed_column(['age', 'sex'], hash_bucket_size=100)
