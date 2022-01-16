@@ -74,3 +74,6 @@ for feature_batch, label_batch in ds.take(1):
 # Inspecting a specific feature column:
 age_column = feature_columns[7]
 tf.keras.layers.DenseFeatures([age_column])(feature_batch).numpy()
+
+gender_column = feature_columns[0]
+tf.keras.layers.DenseFeatures([tf.feature_column.indicator_column(gender_column)])(feature_batch).numpy()
