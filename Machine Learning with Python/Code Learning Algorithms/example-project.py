@@ -48,7 +48,7 @@ for feature_name in CATEGORICAL_COLUMNS:
 for feature_name in NUMERIC_COLUMNS:
   feature_columns.append(tf.feature_column.numeric_column(feature_name, dtype=tf.float32))
 
-  
+
 #Making an input function:
 def make_input_fn(data_df, label_df, num_epochs=10, shuffle=True, batch_size=32):
   def input_function():
@@ -61,3 +61,12 @@ def make_input_fn(data_df, label_df, num_epochs=10, shuffle=True, batch_size=32)
 
 train_input_fn = make_input_fn(dftrain, y_train)
 eval_input_fn = make_input_fn(dfeval, y_eval, num_epochs=1, shuffle=False)
+
+# Inspecting the dataset:
+ds = make_input_fn(dftrain, y_train, batch_size=10)()
+for feature_batch, label_batch in ds.take(1):
+  print('Some feature keys:', list(feature_batch.keys()))
+  print()
+  print('A batch of class:', feature_batch['class'].numpy())
+  print()
+  print('A batch of Labels:', label_batch.numpy())
