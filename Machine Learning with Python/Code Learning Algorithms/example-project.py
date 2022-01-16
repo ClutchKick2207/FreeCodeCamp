@@ -9,8 +9,8 @@
 
 #Importing the required libraries;
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+import numpy as np #For manipulation of datasets, and general tools
+import pandas as pd #For neater and more efficient dataset usage
+import matplotlib.pyplot as plt #for plotting
 from IPython.display import clear_output
 from six.moves import urllib
