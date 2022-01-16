@@ -96,3 +96,8 @@ result = linear_est.evaluate(eval_input_fn)
 
 clear_output()
 print(result)
+
+pred_dicts = list(linear_est.predict(eval_input_fn))
+probs = pd.Series([pred['probabilities'][1] for pred in pred_dicts])
+
+probs.plot(kind='hist', bins=20, title='predicted probabilities')
