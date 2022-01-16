@@ -2,6 +2,8 @@
 
 # I decided to have a pure Python file in this folder for the example Titanic Project
 # So that you can look at the code all in one place
+# I would highly recommend using the Jupyter Notebook, as it allows for better useage, and I've got example outputs embedded in it
+
 
 #I'll put in a few notes in here as well.
 
@@ -27,3 +29,4 @@ dfeval = pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/eval.cs
 
 y_train = dftrain.pop('survived')
 y_eval = dfeval.pop('survived')
+
