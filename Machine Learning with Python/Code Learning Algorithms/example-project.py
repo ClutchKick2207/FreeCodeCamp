@@ -13,4 +13,4 @@ import numpy as np #For manipulation of datasets, and general tools
 import pandas as pd #For neater and more efficient dataset usage
 import matplotlib.pyplot as plt #for plotting
 from IPython.display import clear_output #For some better and clearer output
-from six.moves import urllib
+from six.moves import urllib #For potential backwards compatibility with certain modules
