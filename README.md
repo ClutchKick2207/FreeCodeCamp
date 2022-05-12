@@ -1,5 +1,7 @@
 # FreeCodeCamp Course Notes
 
+## Please note that I am not currently working through these courses, and am instead going through the fast.ai course, which you can view my notes for at: [https://github.com/ClutchKick2207/Fast.ai-Course](https://github.com/ClutchKick2207/Fast.ai-Course) 
+
 I'll be using this repository to hosue all of the notes that I take during my time taking the official FreeCodeCamp courses, and aim to get the classic 'Full Stack Developer' certification as a form of gaining experience in multiple languages, and seeing what suits me best.
 
 ## Progress:
