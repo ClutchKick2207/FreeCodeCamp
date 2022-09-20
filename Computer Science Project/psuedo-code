@@ -1,0 +1,26 @@
+import CatsDataset
+for image in CatsDataset:
+    import image filepath as filepath
+    if filepath = filepath.upper():
+        image = cat
+        ImageList = image.append()
+    else:
+        image = Dog
+        ImageList = image.append()
+    
+for image in ImageList:
+    image_valid = image.validator()
+    if image_valid = true:
+        seed = input('seed-size: ')
+        batch = 0
+        while batch != seed:
+            batch_group = image.append()
+            batch = batch + 1
+        gpu = active
+        for image in batch:
+            image = image.resize(224 pixels)
+            processed_batch = image.append
+
+    else:
+        delete image from ImageList
+
